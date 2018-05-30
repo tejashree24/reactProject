@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import styles from './css/formexample.css';
 
+//***************** Bootstrap Basics*********************//
 // main app
 // import App from './containers/App';
 // import Helloworld from './containers/Helloworld';
@@ -12,9 +13,11 @@ import styles from './css/formexample.css';
 // import Dropdowndemo from './containers/dropdowndemo.js';
 // import Modalsizingdemo from './containers/modal-sizing-demo';
 // import Formdemo from './containers/formdemo';
-import Formexample from './containers/formexample';
+// import Formexample from './containers/formexample';
 // import Navbardemo from './containers/navbardemo';
 
+// import FirstCompo from './src/first_component.js';
+import PropsDemo from './src/props_demo.js';
 
 
 // ReactDOM.render(<Helloworld />, document.getElementById('app'))
@@ -26,5 +29,11 @@ import Formexample from './containers/formexample';
 // ReactDOM.render(<Dropdowndemo/>,document.getElementById('app'));
 // ReactDOM.render(<Modalsizingdemo/>,document.getElementById('app'));
 // ReactDOM.render(<Formdemo/>,document.getElementById('app'));
-ReactDOM.render(<Formexample/>,document.getElementById('app'));
+// ReactDOM.render(<Formexample/>,document.getElementById('app'));
 // ReactDOM.render(<Navbardemo/>,document.getElementById('app'));
+
+
+//**************************** React Basic ************************//
+
+// ReactDOM.render(<FirstCompo/>,document.getElementById('app'));
+ReactDOM.render(<PropsDemo/>,document.getElementById('app'));
